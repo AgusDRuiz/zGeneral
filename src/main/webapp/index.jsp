@@ -8,7 +8,7 @@
         <form action="">
             Nombre: <input type="text" /><br/>
             Email: <input type="email" /><br/>
-            Telefono: <input type="tel" /><br/>        
+            Telefonos: <input type="tel" /><br/>        
         </form>
     </body>
 </html>
