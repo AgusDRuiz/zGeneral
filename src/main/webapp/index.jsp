@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <title>Formulario</title>
@@ -8,7 +8,18 @@
         <form action="">
             Nombre: <input type="text" /><br/>
             Email: <input type="email" /><br/>
+            URL: <input type="url" /><br/>        
+            Buscar: <input type="search" /><br/>        
             Telefono: <input type="tel" /><br/>        
+            Edad <input type="number" /><br/>        
+            Edad <input type="range" /><br/>
+            Fecha de Nacimiento: <input type="date" /><br/>
+            Mes: <input type="month" /><br/>
+            Semana: <input type="week" /><br/>
+            Color: <input type="color" /><br/>
+            Hora: <input type="time" /><br/>
+            <input type="submit" value="Aceptar"/>
+            
         </form>
     </body>
 </html>
