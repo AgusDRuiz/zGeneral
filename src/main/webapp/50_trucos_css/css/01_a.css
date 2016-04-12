@@ -1,0 +1,11 @@
+@import url('01_b.css');
+body{
+    font-family: monospace;
+    padding: 30px;
+}
+h1{
+    color: red;
+}
+p{
+    width: 500px;
+}

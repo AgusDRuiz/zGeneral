@@ -1,0 +1,11 @@
+body{
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 12px;
+}
+p{
+    border-bottom: dashed qpx #000000;
+}
+img{
+    display: none;        
+}

@@ -31,7 +31,7 @@
         </footer>
         <script>
 
-            var map;
+            var map;            
             var miUbicacion ={};
             var zocalo = {
                 lat: 19.432658, 
@@ -99,7 +99,9 @@
             }
             
             addMarkerAtMouse = function(e){
-                addMarker(e.latLng)
+                addMarker(e.latLng);
+                console.log("Latitud: "+e.latLng.lat());
+                console.log("Longitud: "+e.latLng.lng());
             }
             function Localizame(){
                 navigator.geolocation.getCurrentPosition(
@@ -137,7 +139,14 @@
                 marker.addListener('dblclick',deleteMarker);
                 //marker.addListener('click',addAnimation);
                 marker.addListener('click',addInfoWindow);
+                marker.addListener('dragend',addInfoCoords);
             }
+            
+            addInfoCoords = function(e){                
+                console.log("Fin Latitud: "+e.latLng.lat());
+                console.log("Fin Longitud: "+e.latLng.lng());                
+            }
+            
             addInfoWindow = function(e){
                 var geoCoder = new google.maps.Geocoder;
                 var infoWindo = new google.maps.InfoWindow({
@@ -175,7 +184,7 @@
                     var places = searchBox.getPlaces();
                     
                     places.forEach(function(a){
-                        var ubicacion = a.geometry.location;
+                        var ubicacion = a.geometry.location;//ASDSBNADLGSALKDHSAKLDHSAKLSDHA
                         addMarker(ubicacion);
                         map.setCenter(ubicacion);
                         traceRoute(ubicacion);
