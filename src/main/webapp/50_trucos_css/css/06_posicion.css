@@ -1,0 +1,26 @@
+
+#encabezado{
+    width: 100%;
+    background: #c6c5c5;
+    height: 100px;
+}
+#contenido{
+    width: 75%;
+    background: yellow;
+    float:right;
+}
+#menu{
+    width: 20%;
+    height: 300px;
+    background: green;
+    float: left;
+
+}
+/*clear: both; para eliminar la propiedad de flotado*/
+#pie{
+    width: 100%;
+    background: red;
+    clear: both;
+}
+
+ 

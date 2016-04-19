@@ -1,10 +1,11 @@
 body{
-    font-family: monospace;
-    padding: 30px;
+    font-family: cursive;
+    padding: 10px;
+    background: #f5f5f5;
 }
 h1{
     color: red;
 }
 p{
-    width: 500px;
+    width: 800px;
 }

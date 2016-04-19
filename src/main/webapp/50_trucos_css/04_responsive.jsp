@@ -2,9 +2,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
-        <link rel="stylesheet" href="css/03_a.css" />
-        <link rel="stylesheet" href="css/03_moviles.css" media="handheld"/>
+        <!--   MEDIA QUERIES  -->
+        <link rel="stylesheet" href="css/03_a.css" media="screen and (min-width:481px)"/>
+        <link rel="stylesheet" href="css/03_moviles.css" media="handheld, only screen and (max-width:480px)"/>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>

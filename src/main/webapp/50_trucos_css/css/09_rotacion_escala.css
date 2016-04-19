@@ -1,0 +1,19 @@
+.contenedor {
+    margin: 100px auto;
+    display: block;
+    text-align: center
+}
+
+.reloj {
+    position: absolute;
+    left: 300px;
+    transform: rotate(45deg) scale(1.2)
+}
+
+.manecilla {
+    position: absolute;
+    left: 410px;
+    top: 130px;
+    transform: rotate(45deg) scale(0.7);
+    transform-origin: center bottom
+}

@@ -25,6 +25,7 @@
         </div>
         <script type="text/javascript">
             var container;
+            var elementoArrastrado;
             window.addEventListener('load', init);
             function init(){
                 container = document.querySelector('.container');
@@ -48,6 +49,7 @@
             
             function dragIniciado(e){
                 this.style.backgroundColor='blue';
+                elementoArrastrado = this;
                 var padre = document.createElement('p');
                 var clone = this.cloneNode(true);
                 padre.appendChild(clone);
@@ -55,7 +57,10 @@
             }
             function manejarDrop(e){
                 e.preventDefault();
-                var datos = e.dataTransfer.getData('text')
+                var datos = e.dataTransfer.getData('text');
+                this.innerHTML += datos;
+                elementoArrastrado.parentNode.removeChild(elementoArrastrado);
+                this.classList.remove('over');
             }
             function dragSobreContainer(e){
                 e.preventDefault();

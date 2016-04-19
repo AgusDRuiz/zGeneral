@@ -1,6 +1,9 @@
 body{
     font-size: 18px;
     padding: 0 10px;
+    font-family: monospace;
+    width: 100%;
+    background: appworkspace;
 }
 img{
     width: 80%;

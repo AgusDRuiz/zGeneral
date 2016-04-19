@@ -2,9 +2,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
-        <link rel="stylesheet" href="css/03_a.css" />
-        <link rel="stylesheet" href="css/03_moviles.css" media="handheld"/>
+        <!--   ESTANDARIZA LOS CSS EN DISTINTOS NAVEGADORES  -->
+        <link rel="stylesheet" href="css/normalize.css"/>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>

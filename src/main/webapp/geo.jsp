@@ -34,8 +34,8 @@
             var map;            
             var miUbicacion ={};
             var zocalo = {
-                lat: 19.432658, 
-                lng: -99.133171
+                lat: 20.513137,	 
+                lng: -101.689340636363636363636363636363636364
             };
             var miCasa = {
                 lat: 19.290246,
@@ -85,6 +85,7 @@
                 });
                 searchPlace();
                 //Localizame();
+                addMarker(zocalo);
                 
             }
             Habilitar = function(){
