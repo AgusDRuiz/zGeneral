@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html> 
     <head>
-        <title>Pr·ctica websockets</title>
+        <title>Pr√°ctica websockets</title>
         <meta charset='utf-8'>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
